@@ -7,7 +7,7 @@ import FoodInput from "./components/FoodInput";
 import { useState } from "react";
 
 function App() {
-  let [foodItems, setFoodItems] = useState([]);
+  let [foodItems, setFoodItems] = useState(["Salad","Ghee","Kakora","Kathal"]);
 
   const onKeyDown = (event) => {
     if (event.key === "Enter") {
